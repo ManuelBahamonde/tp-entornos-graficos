@@ -1,0 +1,12 @@
+body{
+    background-image: url(../Recursos/dot-grid.png);
+}
+
+.navbar-brand:hover{   
+   
+    filter: contrast(5%);
+}
+
+#navbarTogglerDemo02 li a:hover{
+    filter: contrast(5%);
+}
