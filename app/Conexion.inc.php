@@ -13,7 +13,6 @@ class Conexion{
                 self::$conexion = new PDO("mysql:host=$nombre_servidor; dbname=$nombre_base_datos", $nombre_usuario, $password);
                 self::$conexion -> setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
                 self::$conexion -> exec("SET CHARACTER SET utf8");
-                print("hola");
 
             } catch (PDOException $ex) {
                 print "ERROR:" . $ex -> getMessage() . "<br>";
@@ -26,7 +25,6 @@ class Conexion{
 
         if(isset(self::$conexion)){
             self::$conexion = null;
-            print("chau");
         }
 
     }
