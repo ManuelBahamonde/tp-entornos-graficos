@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg  ftco-navbar-light">
 <div class="container-xl">
-<a class="navbar-brand" href="index.html">
+<a class="navbar-brand" href="index.php">
 UTN
 </a>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,3 +19,8 @@ UTN
 </div>
 </div>
 </nav>
+<section class="hero-wrap">
+<div class="overlay"></div>
+<div class="container">
+<div class="row no-gutters slider-text align-items-center justify-content-between align-items-stretch">
+<div class="col-md-6 col-lg-5 text d-flex align-items-center">

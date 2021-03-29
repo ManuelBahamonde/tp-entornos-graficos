@@ -4,22 +4,18 @@
   include_once 'plantillas/navbar.inc.php';
 ?>
 
-<section class="hero-wrap">
-<div class="overlay"></div>
-<div class="container">
-<div class="row no-gutters slider-text align-items-center justify-content-between align-items-stretch">
-<div class="col-md-6 col-lg-5 text d-flex align-items-center">
+
 <div>
 <h1 class="">Bienvenido al sistema de Gestión</h1>
 <p>Un sistema desarrollado por un pequeño grupo de estudiantes para la materia electiva entornos gráficos.</p>
 <p class="d-flex">
-<a href="#" class="btn btn-primary d-flex align-items-center"><span> Registrarse </span></a>
+<a href="registro.php" class="btn btn-primary d-flex align-items-center"><span> Registrarse </span></a>
 <a href="#" class="btn btn-secondary"><span>Iniciar Sesión</span> </a>
 </p>
 <ul class="ftco-social">
-<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-<li><a href="#"><span class="fa fa-instagram"></span></a></li>
+<li><a href="https://twitter.com/RamaSammataro" target="_blank"><span class="fa fa-twitter"></span></a></li>
+<li><a href="https://www.facebook.com/rama.aec" target="_blank"><span class="fa fa-facebook"></span></a></li>
+<li><a href="https://www.instagram.com/ramasammataro/" target="_blank"><span class="fa fa-instagram"></span></a></li>
 <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
 </ul>
 </div>
